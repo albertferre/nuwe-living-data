@@ -28,6 +28,7 @@ def coinmarket_api_data(api_key: str) -> dict:
 
     log.info("Data fetched from Coinmarketcap API successfully")
     data = json.loads(response.text)
+    log.info(f"Data received from Coinmarketcap API:\n\n{data}\n")
 
     return data
 
