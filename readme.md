@@ -70,5 +70,7 @@ coverage run -m pytest
 coverage report -m
 ```
 ![coverage](img/coverage.png)
-También se puede ver la cobertura en el html generado:
-[html coverage](htmlcov/index.html)
+También se puede ver la cobertura en el html generado con la funcion de coverage:
+```bash
+coverage html
+```
