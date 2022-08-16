@@ -1,0 +1,6 @@
+pytest==7.1.2
+python-dotenv==0.20.0
+requests==2.28.1
+pymongo==4.2.0
+pytest-mock==3.8.2
+coverage==6.4.3
